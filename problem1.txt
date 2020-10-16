@@ -1,0 +1,15 @@
+1.  First finding the factorial of a number using recursion
+        creating a function factorial with parameter n
+            If n ==1 
+                return n
+            else
+                return n * factorial(n-1)
+
+2. Second finding the sum of digits 
+    creating a function sum_of_digits with parameter number
+        initialize sum = 0
+        while number > 0:
+            sum = sum + remainder when number is divided by 10
+            number = int(n/10) # this omits the last digits
+        return sum
+
